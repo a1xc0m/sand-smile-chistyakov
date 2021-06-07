@@ -7,9 +7,26 @@
 .nav_main .nav {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* убираем маркеры */
 }
 
-.name_company,
-.connect_company {
-    justify-content: space-around;
+.nav_main .logo_phone {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+}
+
+.nav a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    padding: 33px 25px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
