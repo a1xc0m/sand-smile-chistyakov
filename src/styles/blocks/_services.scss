@@ -42,12 +42,6 @@
 .services_button {
     display: block;
     font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #D46240;
-    border-radius: 5px;
     margin-bottom: 33px;
     margin-left: 121px;
     margin-right: 121px;
@@ -55,6 +49,13 @@
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #D46240;
+    border-radius: 5px;
+    
 }
 
 .services ul {
