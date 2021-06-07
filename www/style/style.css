@@ -1,0 +1,256 @@
+/* >>>>> Общие стили <<<<< */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 116px;
+    line-height: 136px;
+    text-align: center;
+    color: #FFFFFF;
+}
+  
+h2 {
+    list-style-type: none;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    color: #D46240;
+}
+
+/* >>>>> Стили nav_main <<<<< */
+
+.nav_main {
+    background-color: #152B3C;
+}
+
+.nav_main .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.name_company,
+.connect_company {
+    justify-content: space-around;
+}
+
+/* >>>>> Стили promo <<<<< */
+
+.promo {
+    background-image: url(../img/promo/promo_bg.png);
+    color: #FFFFFF;
+    height: 531px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+  
+.promo_p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+}
+
+/* >>>>> Стили services <<<<<  */
+
+.services_list {
+    display: flex;
+    padding: 0%;
+}
+
+.services_item {
+    border-radius: 5%;
+    list-style-type: none;
+    width: 33.33%;
+}
+
+.services_list .services_img {
+    display: block;
+    width: 406px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services_list h3 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #152B3C;
+}
+
+.services_list .p1 {
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}  
+
+.services_list .p2 {
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.services_list .services_cost {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.services_list .services_button {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* >>>>> Стили photos <<<<< */
+
+.photos {
+    display: flex;
+}
+
+.photos h2 {
+    
+}
+
+.photos_img {
+    border-radius: 8px;
+    width: 1060px;
+    height: 600px;
+    /* border: 238px 189px 145px 191px; */
+}
+
+.photo_wrap {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+/* >>>>> Стили location <<<<< */
+
+.location {
+    
+}
+
+.location_list {
+    display: flex;
+    padding: 0%;
+}
+
+.location_wrap {
+    margin-left: 81px;
+    margin-right: 81px;
+}
+
+.location_item1 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location1.png);
+}
+
+.location_item2 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location2.png);
+}
+
+.location_item3 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location3.png);
+}
+
+.location_item4 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location4.png);
+}
+
+
+
+/* >>>>> Стили team <<<<<  */
+
+.team_list {
+    display: flex;
+    padding: 0%;
+}
+
+.team_item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_img {
+    width: 297px;
+    height: 297px;
+}
+
+.team .team_title {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #152B3C;
+}
+
+.team p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #152B3C;
+}
+
+/* >>>>> Стили contacts <<<<< */
+/* >>>>> Стили under <<<<< */
