@@ -22,7 +22,7 @@
     font-size: 24px;
     position: absolute;
     display: block;
-    bottom: 5px;
+    bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
@@ -34,10 +34,13 @@
     border-radius: 8px;
 }
 
-.team_card:hover {
+.team_card {
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.team_card:hover {
     height: 100%;
     box-shadow: 0 0 5px #d46240;
 }
