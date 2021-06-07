@@ -1,10 +1,16 @@
 /* >>>>> Стили nav_main <<<<< */
 
 .nav_main {
-    background-color: #152B3C;
+    //position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #152B3C;
+    z-index: 1000;
 }
 
 .nav_main .nav {
+    color: #FBF2DA;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -17,8 +23,9 @@
     font-weight: 400;
     font-size: 24px;
     display: flex;
+    list-style: none;
+    align-items: center;
     justify-content: space-between;
-    list-style: none;   
 }
 
 .nav a {
@@ -28,5 +35,13 @@
     display: flex;
     padding: 33px 25px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FBF2DA;
+}
+
+.logo,
+.phone {
+    text-decoration: none;
+    color: #FBF2DA;
+    padding-left: 81px;
+    padding-right: 81px;
 }
