@@ -1,0 +1,17 @@
+/* >>>>> Стили photos <<<<< */
+
+.photos {
+    display: flex;
+}
+
+.photos_img {
+    border-radius: 8px;
+    width: 1060px;
+    height: 600px;
+    /* border: 238px 189px 145px 191px; */
+}
+
+.photo_wrap {
+    margin-left: 110px;
+    margin-right: 110px;
+}

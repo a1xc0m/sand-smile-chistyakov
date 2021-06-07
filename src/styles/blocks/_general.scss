@@ -1,0 +1,32 @@
+/* >>>>> Общие стили <<<<< */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 116px;
+    line-height: 136px;
+    text-align: center;
+    color: #FFFFFF;
+}
+  
+h2 {
+    list-style-type: none;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    color: #D46240;
+}

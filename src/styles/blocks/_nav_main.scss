@@ -1,0 +1,15 @@
+/* >>>>> Стили nav_main <<<<< */
+
+.nav_main {
+    background-color: #152B3C;
+}
+
+.nav_main .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.name_company,
+.connect_company {
+    justify-content: space-around;
+}

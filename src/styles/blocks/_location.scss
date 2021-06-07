@@ -1,0 +1,45 @@
+.location {
+    
+}
+
+.location_list {
+    display: flex;
+    padding: 0%;
+}
+
+.location_wrap {
+    margin-left: 81px;
+    margin-right: 81px;
+}
+
+.location_item1 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location1.png);
+}
+
+.location_item2 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location2.png);
+}
+
+.location_item3 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location3.png);
+}
+
+.location_item4 {
+    border-radius: 8px;
+    /* width: 60%; */
+    width: 624px;
+    height: 272px;
+    background-image: url(../img/location/location4.png);
+}

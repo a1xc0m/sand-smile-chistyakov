@@ -1,0 +1,38 @@
+/* >>>>> Стили team <<<<<  */
+
+.team_list {
+    display: flex;
+    padding: 0%;
+}
+
+.team_item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_img {
+    width: 297px;
+    height: 297px;
+}
+
+.team .team_title {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #152B3C;
+}
+
+.team p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #152B3C;
+}

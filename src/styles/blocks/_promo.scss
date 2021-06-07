@@ -1,27 +1,20 @@
+/* >>>>> Стили promo <<<<< */
+
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
+  background-image: url(../img/promo/promo_bg.png);
+  color: #FFFFFF;
+  height: 531px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 
-.promo-inner {
-  margin: 0 auto;
-  width: 1024px;
-
-  @media (max-width: 1279px) {
-    width: auto;
-    max-width: 1024px;
-  }
-}
-
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
-
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
-  }
-
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
-  }
+.promo_p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
 }

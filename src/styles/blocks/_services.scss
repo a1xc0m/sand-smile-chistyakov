@@ -1,0 +1,70 @@
+/* >>>>> Стили services <<<<<  */
+
+.services_list {
+    display: flex;
+    padding: 0%;
+}
+
+.services_item {
+    border-radius: 5%;
+    list-style-type: none;
+    width: 33.33%;
+}
+
+.services_list .services_img {
+    display: block;
+    width: 406px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services_list h3 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #152B3C;
+}
+
+.services_list .p1 {
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}  
+
+.services_list .p2 {
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.services_list .services_cost {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.services_list .services_button {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+}
