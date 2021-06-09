@@ -226,7 +226,7 @@
             <p class="contacts_p">Остались вопросы? Позвоните нам по телефону +7 812 888-88-88, напишите в whatsapp или
                 заполните форму и
                 мы ответим вам в whatsapp по указанному номеру телефона.</p>
-            <ul class="form_input">
+            <!-- <ul class="form_input">
                 <li>
                     <p>Имя</p>
                     <input type="Иванов Иван">
@@ -241,7 +241,29 @@
                 Было бы неплохо разместить на сайте расписание мастер-классов.
                 Спасибо)">
                 </li>
-            </ul>
+            </ul> -->
+
+            <div class="contacts_wrap">
+                <form action="#" method="POST" class="contacts_form">
+                    <div class="contacts_form_field">
+                        <label for="name">Name</label>
+                        <input name="name" id="name" type="text">
+                    </div>
+                    <div class="contacts_form_field">
+                        <label for="email">E-mail</label>
+                        <input name="email" id="email" type="text">
+                    </div>
+                    <div class="contacts_form_field contacts_form_field__full">
+                        <label for="message">E-mail</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="contacts_form_field contacts_form_field__full">
+                        <button class="button">Send message</button>
+                    </div>
+                    <div class="contacts_info">Lorem ipsum dolor sit amet consectetur.</div>
+                </form>
+
+            </div>
         </div>
     </section>
 
