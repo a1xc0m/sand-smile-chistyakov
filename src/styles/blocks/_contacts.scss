@@ -7,6 +7,25 @@
     margin-right: 189.5px;
 }
 
+.checkbox {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+    input {
+      width: 32px;
+      height: 32px;
+      margin-left: 0px;
+    }
+
+    label {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+}
+
 .contacts_wrap {
     display: flex;
     justify-content: space-between;
@@ -62,7 +81,6 @@
 }
 
 .contacts_button {
-    display: block;
     width: 100%;
     display: block;
     font-family: "Open Sans", sans-serif;
@@ -75,3 +93,4 @@
     border-radius: 5px;
     text-align: center;
 }
+
