@@ -8,6 +8,11 @@
     list-style: none;
 }
 
+.location_wrap {
+    margin-left: 81px;
+    margin-right: 81px;
+}
+
 .location_list a {
     color: #FBF2DA;
     font-family: "Roboto", sans-serif;
@@ -24,12 +29,9 @@
     font-size: 40px;
 }
 
-.location_wrap {
-    margin-left: 81px;
-    margin-right: 81px;
-}
-
 .location_item1 {
+    margin-right: 15px;
+    margin-bottom: 15px;
     border-radius: 8px;
     /* width: 60%; */
     width: 624px;
@@ -38,6 +40,8 @@
 }
 
 .location_item2 {
+    margin-left: 15px;
+    margin-bottom: 15px;
     border-radius: 8px;
     /* width: 60%; */
     width: 624px;
@@ -46,6 +50,8 @@
 }
 
 .location_item3 {
+    margin-right: 15px;
+    margin-bottom: 15px;
     border-radius: 8px;
     /* width: 60%; */
     width: 624px;
@@ -54,6 +60,8 @@
 }
 
 .location_item4 {
+    margin-left: 15px;
+    margin-bottom: 15px;
     border-radius: 8px;
     /* width: 60%; */
     width: 624px;
