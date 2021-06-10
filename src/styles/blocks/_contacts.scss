@@ -49,11 +49,16 @@
       font-family: "Open Sans", sans-serif;
       resize: vertical;
     }
+
+    label {
+      font-family: "Open Sans", sans-serif;
+      margin-left: 20px;
+      color: #D46240;
+    }
 }
 
 .contacts_form_field__full {
     width: 100%;
-    text-align: center;
 }
 
 .contacts_button {
